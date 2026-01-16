@@ -257,19 +257,13 @@ HTML
 
 Passos para Rodar o Frontend
 
-1.
-Crie os arquivos index.html e script.js (com os códigos acima).
+1. Crie os arquivos index.html e script.js (com os códigos acima).
 
-2.
-Adicione a imagem dog-love.jpg na mesma pasta.
+2. Adicione a imagem dog-love.jpg na mesma pasta.
 
-3.
-Abra o arquivo index.html no seu navegador.
+3. Abra o arquivo index.html no seu navegador.
 
-4.
-Importante: Se você estiver rodando o Backend localmente (http://localhost:3000 ), certifique-se de que a URL de fetch no script.js esteja apontando para http://localhost:3000/gerar-frase.
-
-
+4. Importante: Se você estiver rodando o Backend localmente (http://localhost:3000 ), certifique-se de que a URL de fetch no script.js esteja apontando para http://localhost:3000/gerar-frase.
 
 
 🚀 Deploy (Hospedagem )
