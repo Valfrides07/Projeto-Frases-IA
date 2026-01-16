@@ -11,7 +11,7 @@ async function buscarFraseDaIA() {
   fraseEl.textContent = "Espero que goste...";
 
   try {
-    const response = await fetch('https://seu-backend.onrender.com/gerar-frase')
+    const response = await fetch('https://frases-ia-backend.onrender.com/gerar-frase')
 
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
@@ -29,15 +29,22 @@ async function buscarFraseDaIA() {
     }
   }
     catch (error) {
-      console.error("ERRO COMPLETO:", error);
-      fraseEl.textContent = "Erro ao conectar com a IA ou API.";
-        console.log('Erro com a API OU IA, verifique.')
+      async function buscarFraseDaIA() {
+  try {
+    const response = await fetch("https://SEU-BACKEND.onrender.com/gerar-frase");
 
-    if (err.status === 429) {
-      return res.status(429).json({error: 'Limite da API atingido.'});
+    if (!response.ok) {
+      throw new Error("Erro ao buscar frase");
     }
 
-    res.status(500).json({ error: 'Erro interno do servidor' });
+    const data = await response.json();
+    console.log(data.frase);
+
+  } catch (err) {
+    console.error("Erro ao buscar frase da IA:", err);
+  }
+}
+
   }
 }
 
