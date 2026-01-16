@@ -105,30 +105,21 @@ app.listen(port, () => {
 
 Passos para Rodar
 
-1.
-Instale as dependências:
+1. Instale as dependências:
 
 Bash
 
 
 npm install express cors @google/generative-ai dotenv
 
-
-
-
-2.
-Crie um arquivo .env na raiz do projeto para sua chave de API:
+2. Crie um arquivo .env na raiz do projeto para sua chave de API:
 
 Plain Text
 
 
 GOOGLE_API_KEY="SUA_CHAVE_DE_API_AQUI"
 
-
-
-
-3.
-Execute o servidor:
+3. Execute o servidor:
 
 Bash
 
@@ -142,7 +133,6 @@ node server.js
 
 
 O servidor estará rodando em http://localhost:3000.
-
 
 
 2. Configuração do Frontend (HTML/JS )
