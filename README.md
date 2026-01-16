@@ -1,8 +1,8 @@
-Projeto Bhrenda: Gerador de Frases Românticas com Gemini AI
+Projeto: Gerador de Frases Românticas com Gemini AI
 
 📝 Descrição do Projeto
 
-Este projeto é uma aplicação web dedicada a gerar frases românticas e únicas para a Bhrenda, utilizando a inteligência artificial do Google Gemini. A aplicação é dividida em duas partes: um Backend em Node.js/Express que se comunica com a API do Gemini e um Frontend em HTML, CSS e JavaScript puro que exibe as mensagens e interage com o usuário.
+Este projeto é uma aplicação web dedicada a gerar frases românticas, utilizando a inteligência artificial do Google Gemini. A aplicação é dividida em duas partes: um Backend em Node.js/Express que se comunica com a API do Gemini e um Frontend em HTML, CSS e JavaScript puro que exibe as mensagens e interage com o usuário.
 
 O projeto combina mensagens pessoais pré-definidas, um momento especial com uma imagem e a geração dinâmica de conteúdo via IA.
 
