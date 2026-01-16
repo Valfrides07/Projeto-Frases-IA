@@ -8,17 +8,13 @@ O projeto combina mensagens pessoais pré-definidas, um momento especial com uma
 
 ✨ Funcionalidades
 
-•
-Mensagens Iniciais Personalizadas: Exibe uma sequência de mensagens pessoais e carinhosas ao iniciar.
+• Mensagens Iniciais Personalizadas: Exibe uma sequência de mensagens pessoais e carinhosas ao iniciar.
 
-•
-Momento "Doguinho": Exibe uma imagem especial (dog-love.jpg) após as mensagens iniciais.
+• Momento "Doguinho": Exibe uma imagem especial (dog-love.jpg) após as mensagens iniciais.
 
-•
-Geração de Frases Românticas: A cada clique subsequente, o sistema chama a API do Backend para gerar uma nova frase romântica e exclusiva, garantindo variedade e criatividade.
+• Geração de Frases Românticas: A cada clique subsequente, o sistema chama a API do Backend para gerar uma nova frase romântica e exclusiva, garantindo variedade e criatividade.
 
-•
-Configuração de IA Otimizada: Utiliza a systemInstruction para garantir que o modelo Gemini responda APENAS com a frase desejada, sem introduções ou textos extras.
+• Configuração de IA Otimizada: Utiliza a systemInstruction para garantir que o modelo Gemini responda APENAS com a frase desejada, sem introduções ou textos extras.
 
 🛠️ Tecnologias Utilizadas
 
@@ -34,12 +30,6 @@ Utilizado para a geração de conteúdo criativo e romântico.
 Frontend
 HTML, CSS, JavaScript
 Interface simples e interativa para o usuário.
-
-
-
-
-
-
 
 ⚙️ Configuração e Execução
 
@@ -105,24 +95,15 @@ app.listen(port, () => {
 
 Passos para Rodar
 
-1. Instale as dependências:
-
-Bash
-
+1. Instale as dependências: Bash
 
 npm install express cors @google/generative-ai dotenv
 
-2. Crie um arquivo .env na raiz do projeto para sua chave de API:
-
-Plain Text
-
+2. Crie um arquivo .env na raiz do projeto para sua chave de API: Plain Text
 
 GOOGLE_API_KEY="SUA_CHAVE_DE_API_AQUI"
 
-3. Execute o servidor:
-
-Bash
-
+3. Execute o servidor: Bash
 
 # Se estiver usando 'dotenv' no seu código, use:
 node server.js
@@ -131,9 +112,7 @@ node server.js
 export GOOGLE_API_KEY="SUA_CHAVE_DE_API_AQUI"
 node server.js
 
-
 O servidor estará rodando em http://localhost:3000.
-
 
 2. Configuração do Frontend (HTML/JS )
 
@@ -142,7 +121,6 @@ O Frontend é a interface que o usuário interage.
 Código JavaScript (Assumindo que está em um arquivo como script.js)
 
 JavaScript
-
 
 const PrimeiraMensagem = [
   'Para avançar basta clicar na tela.',
@@ -268,11 +246,7 @@ Passos para Rodar o Frontend
 
 🚀 Deploy (Hospedagem )
 
-Para que a Bhrenda possa acessar o projeto de qualquer lugar, você pode hospedar o Backend e o Frontend:
+• Backend (Node.js): Pode ser hospedado em serviços como Render (como você já está usando), Heroku, Vercel (com Serverless Functions) ou Railway. Lembre-se de configurar a variável de ambiente GOOGLE_API_KEY no painel do serviço de hospedagem.
 
-•
-Backend (Node.js): Pode ser hospedado em serviços como Render (como você já está usando), Heroku, Vercel (com Serverless Functions) ou Railway. Lembre-se de configurar a variável de ambiente GOOGLE_API_KEY no painel do serviço de hospedagem.
-
-•
-Frontend (HTML/JS): Por ser estático, pode ser hospedado gratuitamente em serviços como GitHub Pages, Vercel ou Netlify.
+• Frontend (HTML/JS): Por ser estático, pode ser hospedado gratuitamente em serviços como GitHub Pages, Vercel ou Netlify.
 
