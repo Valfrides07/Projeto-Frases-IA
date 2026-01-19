@@ -233,20 +233,3 @@ HTML
 </html>
 
 
-Passos para Rodar o Frontend
-
-1. Crie os arquivos index.html e script.js (com os códigos acima).
-
-2. Adicione a imagem dog-love.jpg na mesma pasta.
-
-3. Abra o arquivo index.html no seu navegador.
-
-4. Importante: Se você estiver rodando o Backend localmente (http://localhost:3000 ), certifique-se de que a URL de fetch no script.js esteja apontando para http://localhost:3000/gerar-frase.
-
-
-🚀 Deploy (Hospedagem )
-
-• Backend (Node.js): Pode ser hospedado em serviços como Render (como você já está usando), Heroku, Vercel (com Serverless Functions) ou Railway. Lembre-se de configurar a variável de ambiente GOOGLE_API_KEY no painel do serviço de hospedagem.
-
-• Frontend (HTML/JS): Por ser estático, pode ser hospedado gratuitamente em serviços como GitHub Pages, Vercel ou Netlify.
-
