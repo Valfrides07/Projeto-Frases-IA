@@ -135,8 +135,8 @@ async function buscarFraseDaIA() {
   fraseEl.textContent = "Espero que goste...";
 
   try {
-    // ATENÇÃO: Altere esta URL para o endereço onde seu backend está rodando
-    // Se estiver rodando localmente, use: 'http://localhost:3000/gerar-frase'
+    // Alterar esta URL para o endereço onde seu backend está rodando
+    // Se estiver rodando localmente, usar: 'http://localhost:3000/gerar-frase'
     const response = await fetch('https://frases-ia-backend.onrender.com/gerar-frase' )
 
     if (!response.ok) {
